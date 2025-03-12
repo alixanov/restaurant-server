@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://restaurant-client-sand.vercel.app"],
+  origin: ["http://localhost:3000", "https://restaurant-web-client-two.vercel.app"],
 
   // origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
